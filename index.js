@@ -38,9 +38,9 @@ function crossOffMovie(event) {
 }
 
 const revealMessage = () =>{
+    message.classList.remove('hide');
     const callback = () =>{
-        // message.classList.remove("hide");
-        // message.classList.add("hide");
+        message.classList.add('hide');
     }
     setTimeout(callback,1000);
 }
